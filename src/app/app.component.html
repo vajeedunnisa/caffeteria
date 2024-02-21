@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div  class="main">   
+  <div class="coffees">
+    <div class="coffee" *ngFor="let c of coffes">
+      
+      <img src={{c.image}} alt="">
+       <h2>{{c.title}}</h2>
+       <p>price:{{50|currency:"INR"}}</p>
+    </div>
+  </div>
+</div>
